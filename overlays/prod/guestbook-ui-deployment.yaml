@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: guestbook-ui
+spec:
+  replicas: 4
+  template:
+    spec:
+      containers:
+        name: guestbook-ui-prod
+        ports:
+        - containerPort: 8080

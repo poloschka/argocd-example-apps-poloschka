@@ -5,4 +5,5 @@ resources:
 - ../../kustomize-guestbook
 patches:
 - path: guestbook-ui-deployment.yaml
-  target: Deployment
+  target: 
+    kind: Deployment

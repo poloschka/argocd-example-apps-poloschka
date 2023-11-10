@@ -6,7 +6,6 @@ resources:
 
 patches:
   - target:
-      version: v1
       kind: Deployment
       name: guestbook-ui
     patch: |-

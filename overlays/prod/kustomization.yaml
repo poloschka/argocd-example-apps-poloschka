@@ -3,6 +3,6 @@ kind: Kustomization
 
 resources:
 - ../../kustomize-guestbook
-
 patches:
-- guestbook-ui-deployment.yaml
+- path: guestbook-ui-deployment.yaml
+  target: Deployment

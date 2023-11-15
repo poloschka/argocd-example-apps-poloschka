@@ -28,3 +28,9 @@ patches:
       name: native-ic-params
     options:
       allowNameChange: true
+    - path: ingress.yaml
+    target:
+      kind: Ingress
+      name: native-ic-ingress
+    options:
+      allowNameChange: true

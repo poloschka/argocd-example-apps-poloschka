@@ -5,14 +5,3 @@ metadata:
   namespace: guestbook-tst
 spec:
   ingressClassName: guestbook-ic-tst
-  rules:
-    - host: "guestbook-tst.paocitenant.intra"
-      http:
-        paths:
-          - pathType: Prefix
-            path: /
-            backend:
-              service:
-                name: guestbook-ui
-                port:
-                  number: 80

@@ -4,4 +4,4 @@ metadata:
   name: native-ic-params
   namespace: guestbook-tst
 spec:
-  loadBalancerName: "guestbook-ui-tst"
+  loadBalancerName: "guestbook-lb-tst"

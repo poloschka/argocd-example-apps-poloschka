@@ -17,4 +17,10 @@ patches:
         path: /spec/template/spec/containers/0/name
         value: guestbook-ui-tst
   - path: ingressclass.yaml
+    target:
+      kind: IngressClass
+      name: native-ic-ingress-class
   - path: ingressclassparameters.yaml
+    target:
+      kind: IngressClassParameters
+      name: native-ic-params

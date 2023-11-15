@@ -16,3 +16,5 @@ patches:
       - op: replace
         path: /spec/template/spec/containers/0/name
         value: guestbook-ui-tst
+  - path: ingressclass.yaml
+  - path: ingressclassparameters.yaml

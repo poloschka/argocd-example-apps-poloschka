@@ -1,5 +1,8 @@
 resources:
 - guestbook-ui-deployment.yaml
 - guestbook-ui-svc.yaml
+- ingress.yaml
+- ingressclass.yaml
+- ingressclassparameters.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization

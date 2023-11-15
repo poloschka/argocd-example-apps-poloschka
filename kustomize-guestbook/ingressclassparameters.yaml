@@ -1,0 +1,12 @@
+apiVersion: "ingress.oraclecloud.com/v1beta1"
+kind: IngressClassParameters
+metadata:
+  name: native-ic-params
+  namespace: default
+spec:
+  compartmentId: "ocid1.compartment.oc1..aaaaaaaao6pvezk67hlz2nsna2al3wkogbqz6rx3zuuj6f2jlkjwv7o23oca"
+  subnetId: "ocid1.subnet.oc1.eu-frankfurt-1.aaaaaaaaovsriqd7mygarpqzk3ztq4ijja3jzxu255i2qwtvmylywsjqgo3q"
+  loadBalancerName: "app-lb"
+  isPrivate: false
+  maxBandwidthMbps: 100
+  minBandwidthMbps: 100

@@ -1,6 +1,7 @@
 apiVersion: "ingress.oraclecloud.com/v1beta1"
 kind: IngressClassParameters
 metadata:
+  name: native-ic-params
   namespace: guestbook-tst
 spec:
   loadBalancerName: "guestbook-ui-tst"

@@ -4,7 +4,7 @@ metadata:
   name: guestbook-ingress-tst
   namespace: guestbook-tst
 spec:
-  ingressClassName: native-ic-ingress-class
+  ingressClassName: guestbook-ic-tst
   rules:
     - host: "guestbook-tst.paocitenant.intra"
       http:

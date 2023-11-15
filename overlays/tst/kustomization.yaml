@@ -19,12 +19,9 @@ patches:
   - path: ingressclass.yaml
     target:
       kind: IngressClass
-      name: native-ic-ingress-class
   - path: ingressclassparameters.yaml
     target:
       kind: IngressClassParameters
-      name: native-ic-params
   - path: ingress.yaml
     target:
       kind: Ingress
-      name: native-ic-ingress

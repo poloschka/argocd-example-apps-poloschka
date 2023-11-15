@@ -20,17 +20,11 @@ patches:
     target:
       kind: IngressClass
       name: native-ic-ingress-class
-    options:
-      allowNameChange: true
   - path: ingressclassparameters.yaml
     target:
       kind: IngressClassParameters
       name: native-ic-params
-    options:
-      allowNameChange: true
   - path: ingress.yaml
     target:
       kind: Ingress
       name: native-ic-ingress
-    options:
-      allowNameChange: true

@@ -1,9 +1,8 @@
 apiVersion: networking.k8s.io/v1
 kind: IngressClass
 metadata:
-  name: guestbook-ic-tst
+  name: native-ic-ingress-class
 spec:
   controller: oci.oraclecloud.com/native-ingress-controller
   parameters:
     namespace: guestbook-tst
-    name: guestbook-ic-params-tst

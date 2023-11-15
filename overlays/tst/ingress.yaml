@@ -4,4 +4,4 @@ metadata:
   name: native-ic-ingress
   namespace: guestbook-tst
 spec:
-  ingressClassName: guestbook-ic-tst
+  ingressClassName: native-ic-ingress-class

@@ -3,5 +3,10 @@ kind: Ingress
 metadata:
   name: native-ic-ingress
   namespace: guestbook-tst
+  annotations:
+    oci-native-ingress.oraclecloud.com/policy: "ROUND_ROBIN"
+    oci-native-ingress.oraclecloud.com/healthcheck-port: "80"
+    oci-native-ingress.oraclecloud.com/healthcheck-protocol: "HTTP"
+    oci-native-ingress.oraclecloud.com/healthcheck-return-code: "200"
 spec:
   ingressClassName: native-ic-ingress-class
